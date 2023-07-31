@@ -1,0 +1,54 @@
+package com.hengpeng.monitor.model;
+
+import com.hengpeng.monitor.util.Layout;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * 线程信息
+ */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class MThread {
+
+    /**
+     * 活动线程数
+     */
+    private int threadCount;
+
+    /**
+     * 峰值活动线程数
+     */
+    private int peakThreadCount;
+
+    /**
+     * 守护线程数
+     */
+    private int daemonThreadCount;
+
+    /**
+     * 非守护线程数
+     */
+    private int nonDaemonThreadCount;
+
+    /**
+     * 总线程数
+     */
+    private long totalStartedThreadCount;
+
+    @Override
+    public String toString() {
+        return Layout.Table.of(
+                Layout.Row.of("Active Thread Count", threadCount),
+                Layout.Row.of("Active Peak Thread Count", peakThreadCount),
+                Layout.Row.of("Daemon Thread Count", daemonThreadCount),
+                Layout.Row.of("NonDaemon Thread Count", nonDaemonThreadCount),
+                Layout.Row.of("Total Thread Count", totalStartedThreadCount)
+        ).toString();
+    }
+
+}

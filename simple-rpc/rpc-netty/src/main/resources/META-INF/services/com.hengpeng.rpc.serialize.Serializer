@@ -1,0 +1,3 @@
+com.hengpeng.rpc.serialize.impl.MetadataSerializer
+com.hengpeng.rpc.serialize.impl.StringSerializer
+com.hengpeng.rpc.serialize.impl.RpcRequestSerializer

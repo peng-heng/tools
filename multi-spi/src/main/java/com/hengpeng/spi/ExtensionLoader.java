@@ -36,7 +36,9 @@ import java.util.stream.Collectors;
 @SuppressWarnings("all")
 public final class ExtensionLoader<T> {
 
-    private static final String SHENYU_DIRECTORY = "META-INF/hengpeng/";
+    private static final String DEFALUT_DIRECTORY = "META-INF/hengpeng/";
+    private static final String SPI_DIRECTORY_KEY = "spi.custom.directory";
+    private static final String SPI_DIRECTORY = System.getProperty(SPI_DIRECTORY_KEY, DEFALUT_DIRECTORY);
 
     private static final Map<Class<?>, ExtensionLoader<?>> LOADERS = new ConcurrentHashMap<>();
 
@@ -243,7 +245,7 @@ public final class ExtensionLoader<T> {
      * Load files under SHENYU_DIRECTORY.
      */
     private void loadDirectory(final Map<String, ClassEntity> classes) {
-        String fileName = SHENYU_DIRECTORY + clazz.getName();
+        String fileName = SPI_DIRECTORY + clazz.getName();
         try {
             Enumeration<URL> urls = Objects.nonNull(this.classLoader) ? classLoader.getResources(fileName) : ClassLoader.getSystemResources(fileName);
             if (Objects.nonNull(urls)) {

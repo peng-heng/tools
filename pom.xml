@@ -11,7 +11,8 @@
         <module>monitor-tool</module>
         <module>multi-spi</module>
 		<module>simple-rpc</module>
-	</modules>
+        <module>log-framework</module>
+    </modules>
 
     <dependencyManagement>
 

@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 /**
  * 服务器信息
  *
- * @author CL
+ * @author peng.heng
  */
 @Data
 @Builder

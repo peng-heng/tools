@@ -12,6 +12,7 @@
         <module>multi-spi</module>
 		<module>simple-rpc</module>
         <module>log-framework</module>
+        <module>jvm-start</module>
     </modules>
 
     <dependencyManagement>

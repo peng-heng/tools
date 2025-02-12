@@ -6,7 +6,7 @@ import java.net.SocketAddress;
 import java.util.concurrent.TimeoutException;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/25
  */
 public interface TransportClient extends Closeable {

@@ -14,7 +14,7 @@ import com.hengpeng.rpc.transport.command.ResponseHeader;
 import java.util.concurrent.ExecutionException;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/27
  */
 public abstract class AbstractStub implements ServiceStub {

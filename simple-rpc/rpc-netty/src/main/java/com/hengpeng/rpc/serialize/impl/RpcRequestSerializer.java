@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/27
  */
 public class RpcRequestSerializer implements Serializer<RpcRequest> {

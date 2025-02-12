@@ -9,7 +9,7 @@ import java.util.Collection;
 
 /**
  * RPC框架对外提供的服务接口
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/20
  */
 public interface RpcAccessPoint extends Closeable{

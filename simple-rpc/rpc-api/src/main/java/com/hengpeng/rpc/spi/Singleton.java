@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/30
  */
 @Target(ElementType.TYPE)

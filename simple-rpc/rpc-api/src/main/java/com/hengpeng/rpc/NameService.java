@@ -7,7 +7,7 @@ import java.util.Collection;
 
 /**
  * 注册中心
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/20
  */
 public interface NameService {

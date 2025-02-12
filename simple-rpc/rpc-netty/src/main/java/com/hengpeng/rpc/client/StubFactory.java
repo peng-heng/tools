@@ -4,7 +4,7 @@ package com.hengpeng.rpc.client;
 import com.hengpeng.rpc.transport.Transport;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/27
  */
 public interface StubFactory {

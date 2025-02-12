@@ -2,7 +2,7 @@
 package com.hengpeng.rpc.serialize;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019-08-12
  */
 public class SerializeException extends RuntimeException {

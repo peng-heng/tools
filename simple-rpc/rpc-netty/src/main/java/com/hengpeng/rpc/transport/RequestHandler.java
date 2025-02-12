@@ -5,7 +5,7 @@ import com.hengpeng.rpc.transport.command.Command;
 
 /**
  * 请求处理器
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/20
  */
 public interface RequestHandler {

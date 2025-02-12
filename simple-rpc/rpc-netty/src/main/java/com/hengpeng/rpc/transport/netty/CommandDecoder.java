@@ -10,7 +10,7 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 import java.util.List;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/23
  */
 public abstract class CommandDecoder extends ByteToMessageDecoder {

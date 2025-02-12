@@ -2,7 +2,7 @@
 package com.hengpeng.rpc.server;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/29
  */
 public interface ServiceProviderRegistry {

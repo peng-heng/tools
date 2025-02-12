@@ -8,7 +8,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/23
  */
 public abstract class CommandEncoder extends MessageToByteEncoder {

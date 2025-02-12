@@ -27,7 +27,7 @@ import java.util.Map;
  *      Map entry:
  *      ...
  *
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/20
  */
 public class MetadataSerializer implements Serializer<Metadata> {

@@ -13,6 +13,7 @@
 		<module>simple-rpc</module>
         <module>log-framework</module>
         <module>jvm-start</module>
+        <module>middle-ware</module>
     </modules>
 
     <dependencyManagement>

@@ -7,7 +7,7 @@ import com.itranswarp.compiler.JavaStringCompiler;
 import java.util.Map;
 
 /**
- * @author LiYue
+ * @author hengpeng
  * Date: 2019/9/27
  */
 public class DynamicStubFactory implements StubFactory {

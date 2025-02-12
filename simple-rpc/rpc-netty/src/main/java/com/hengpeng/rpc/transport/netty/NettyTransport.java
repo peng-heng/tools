@@ -21,10 +21,8 @@ public class NettyTransport implements Transport {
     }
 
 
-
-
     @Override
-    public  CompletableFuture<Command> send(Command request) {
+    public CompletableFuture<Command> send(Command request) {
         // 构建返回值
         CompletableFuture<Command> completableFuture = new CompletableFuture<>();
         try {
@@ -37,6 +35,7 @@ public class NettyTransport implements Transport {
                     completableFuture.completeExceptionally(channelFuture.cause());
                     channel.close();
                 }
+                inFlightRequests.remove(request.getHeader().getRequestId());
             });
         } catch (Throwable t) {
             // 处理发送异常
